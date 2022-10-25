@@ -20,5 +20,5 @@ This could easily make by run in your terminal the command:
 When you are in the ubication where you import this proyect, run in yoru terminal:
 ```
 # conda activate robotics
-# python visualize_sr0
+# python visualize_ren0.py
 ```
