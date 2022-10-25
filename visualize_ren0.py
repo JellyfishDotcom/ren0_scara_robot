@@ -9,7 +9,7 @@ pb.setGravity(0,0,-9.81)
 pb.setRealTimeSimulation(0)
 
 #Charging the objects
-robot = pb.loadURDF("URDF/scara.urdf.xml", useFixedBase=1)
+robot = pb.loadURDF("URDF/ren0.urdf.xml", useFixedBase=1)
 
 #Ending the program
 input('Press any key to stop...')
