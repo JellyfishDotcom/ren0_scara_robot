@@ -6,9 +6,19 @@ This a students proyect where we design and build a Scara robot with 4 DOF.
 - In **URDF** you can find the .STL and urdf.xml files that makes posible the simulation of this robot in Pybullet and the posterior manage in ROS
 
 ## Visualize in Pybullet simulator
-If you want to see if your files were imported correctly, you can run the **visualize_ren0.py**. 
-Remeber that before making this you have to install the Pybullet simulator in your Python enviroment, this could easily make by run the command 
+### Conda enviroment
+In this proyect, we use a Conda enviroment call 'robotics' that can be created by running in your terminal the following command:
+```
+# conda create -n robotics python=3
+```
+### Installing Pybullet simulator
+This could easily make by run in your terminal the command:
 ```
 # pip install pybullet
 ```
-in your terminal
+### Visualizing ren0 in Pybullet 
+When you are in the ubication where you import this proyect, run in yoru terminal:
+```
+# conda activate robotics
+# python visualize_sr0
+```
