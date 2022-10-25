@@ -1,4 +1,4 @@
-# ren0_scara_robot
+# RENO_scara_robot
 This a students proyect where we design and build a Scara robot with 4 DOF.
 
 ## **Description of directoryes:**
@@ -20,5 +20,5 @@ This could easily make by run in your terminal the command:
 When you are in the ubication where you import this proyect, run in yoru terminal:
 ```
 # conda activate robotics
-# python visualize_ren0.py
+# python visualize_reno.py
 ```
