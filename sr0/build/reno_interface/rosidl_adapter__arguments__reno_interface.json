@@ -1,0 +1,7 @@
+{
+  "package_name": "reno_interface",
+  "non_idl_tuples": [
+    "/home/draft42/sr0/src/reno_interface:srv/JointTrajectory.srv",
+    "/home/draft42/sr0/src/reno_interface:action/TrajectoryExecution.action"
+  ]
+}

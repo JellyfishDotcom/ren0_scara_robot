@@ -1,0 +1,4 @@
+source;share/reno_interface/local_setup.bash
+source;share/reno_interface/local_setup.dsv
+source;share/reno_interface/local_setup.sh
+source;share/reno_interface/local_setup.zsh

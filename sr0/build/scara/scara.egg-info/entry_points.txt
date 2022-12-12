@@ -1,0 +1,6 @@
+[console_scripts]
+arduino_subscriber = scara.arduino_subscriber:main
+scara_joint_publisher = scara.scara_joint_publisher:main
+trajectory_generator = scara.trajectory_generator:main
+virtual_pendant = scara.virtual_pendant:main
+

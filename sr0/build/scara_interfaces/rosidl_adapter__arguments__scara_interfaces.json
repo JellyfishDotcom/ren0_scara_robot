@@ -1,0 +1,7 @@
+{
+  "package_name": "scara_interfaces",
+  "non_idl_tuples": [
+    "/home/draft42/sr0/src/scara_interfaces:srv/JointTrajectory.srv",
+    "/home/draft42/sr0/src/scara_interfaces:action/TrajectoryExecution.action"
+  ]
+}

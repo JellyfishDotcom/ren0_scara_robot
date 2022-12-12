@@ -1,0 +1,341 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.115s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6f7cb4bb20>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6f7cb4bb20>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6f7cb540d0>)
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.133s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.133s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/draft42/sr0'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces0) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces0) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces0) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces0) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces0) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces0) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces0) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces0) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces0) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces0' with type 'ros.ament_cmake' and name 'custom_interfaces0'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/reno_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/reno_interface) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/reno_interface) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/reno_interface) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/reno_interface) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/reno_interface) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/reno_interface) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/reno_interface) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/reno_interface) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/reno_interface' with type 'ros.ament_cmake' and name 'reno_interface'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_basics) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_basics) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_basics) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_basics) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_basics) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_basics) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_basics) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_basics) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_basics) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_basics' with type 'ros.ament_python' and name 'ros2_basics'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/scara) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/scara' with type 'ros.ament_python' and name 'scara'
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.170s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/draft42/sr0/install
+[0.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/galactic
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces0' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces0' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces0' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces0' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces0' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces0' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces0' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces0' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces0' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces0' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/draft42/sr0/build/custom_interfaces0', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/draft42/sr0/install/custom_interfaces0', 'merge_install': False, 'path': '/home/draft42/sr0/src/custom_interfaces0', 'symlink_install': False, 'test_result_base': None}
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'reno_interface' build argument 'cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'reno_interface' build argument 'cmake_target' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'reno_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'reno_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'reno_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'reno_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'reno_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'reno_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.231s] Level 5:colcon.colcon_core.verb:set package 'reno_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.231s] DEBUG:colcon.colcon_core.verb:Building package 'reno_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/draft42/sr0/build/reno_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/draft42/sr0/install/reno_interface', 'merge_install': False, 'path': '/home/draft42/sr0/src/reno_interface', 'symlink_install': False, 'test_result_base': None}
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ros2_basics' build argument 'cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ros2_basics' build argument 'cmake_target' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ros2_basics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ros2_basics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ros2_basics' build argument 'cmake_clean_first' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ros2_basics' build argument 'cmake_force_configure' from command line to 'False'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ros2_basics' build argument 'ament_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ros2_basics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.232s] Level 5:colcon.colcon_core.verb:set package 'ros2_basics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.232s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_basics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/draft42/sr0/build/ros2_basics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/draft42/sr0/install/ros2_basics', 'merge_install': False, 'path': '/home/draft42/sr0/src/ros2_basics', 'symlink_install': False, 'test_result_base': None}
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scara' build argument 'cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scara' build argument 'cmake_target' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scara' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scara' build argument 'cmake_clean_cache' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scara' build argument 'cmake_clean_first' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scara' build argument 'cmake_force_configure' from command line to 'False'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scara' build argument 'ament_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scara' build argument 'catkin_cmake_args' from command line to 'None'
+[0.233s] Level 5:colcon.colcon_core.verb:set package 'scara' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.233s] DEBUG:colcon.colcon_core.verb:Building package 'scara' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/draft42/sr0/build/scara', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/draft42/sr0/install/scara', 'merge_install': False, 'path': '/home/draft42/sr0/src/scara', 'symlink_install': False, 'test_result_base': None}
+[0.234s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.237s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/draft42/sr0/src/custom_interfaces0' with build type 'ament_cmake'
+[0.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/draft42/sr0/src/custom_interfaces0'
+[0.241s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.241s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/draft42/sr0/src/reno_interface' with build type 'ament_cmake'
+[0.246s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/draft42/sr0/src/reno_interface'
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.253s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/draft42/sr0/src/ros2_basics' with build type 'ament_python'
+[0.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_basics', 'ament_prefix_path')
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/hook/ament_prefix_path.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/hook/ament_prefix_path.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/hook/ament_prefix_path.sh'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.259s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.263s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/draft42/sr0/src/scara' with build type 'ament_python'
+[0.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara', 'ament_prefix_path')
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/scara/share/scara/hook/ament_prefix_path.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/scara/share/scara/hook/ament_prefix_path.dsv'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/scara/share/scara/hook/ament_prefix_path.sh'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/draft42/sr0/build/custom_interfaces0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --build /home/draft42/sr0/build/custom_interfaces0 -- -j12 -l12
+[0.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/draft42/sr0/build/reno_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --build /home/draft42/sr0/build/reno_interface -- -j12 -l12
+[0.567s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/draft42/sr0/src/ros2_basics'
+[0.568s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.568s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.775s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/draft42/sr0/src/scara'
+[0.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.776s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/draft42/sr0/build/custom_interfaces0' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --build /home/draft42/sr0/build/custom_interfaces0 -- -j12 -l12
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/draft42/sr0/build/reno_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --build /home/draft42/sr0/build/reno_interface -- -j12 -l12
+[0.868s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/draft42/sr0/build/custom_interfaces0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --install /home/draft42/sr0/build/custom_interfaces0
+[0.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/draft42/sr0/build/reno_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --install /home/draft42/sr0/build/reno_interface
+[0.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(reno_interface)
+[0.954s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface' for CMake module files
+[0.955s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface' for CMake config files
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/draft42/sr0/build/reno_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --install /home/draft42/sr0/build/reno_interface
+[0.955s] Level 1:colcon.colcon_core.shell:create_environment_hook('reno_interface', 'cmake_prefix_path')
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/cmake_prefix_path.ps1'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/cmake_prefix_path.dsv'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/cmake_prefix_path.sh'
+[0.958s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface/lib'
+[0.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('reno_interface', 'ld_library_path_lib')
+[0.959s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/ld_library_path_lib.ps1'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/ld_library_path_lib.dsv'
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/ld_library_path_lib.sh'
+[0.960s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface/bin'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface/lib/pkgconfig/reno_interface.pc'
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface/lib/python3.8/site-packages'
+[0.961s] Level 1:colcon.colcon_core.shell:create_environment_hook('reno_interface', 'pythonpath')
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/pythonpath.ps1'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/pythonpath.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/pythonpath.sh'
+[0.965s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface/bin'
+[0.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/reno_interface/share/reno_interface/package.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/draft42/sr0/install/reno_interface/share/reno_interface/package.dsv'
+[0.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/reno_interface/share/reno_interface/package.sh'
+[0.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/reno_interface/share/reno_interface/package.bash'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/reno_interface/share/reno_interface/package.zsh'
+[0.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/draft42/sr0/install/reno_interface/share/colcon-core/packages/reno_interface)
+[0.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces0)
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0' for CMake module files
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/draft42/sr0/build/custom_interfaces0' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --install /home/draft42/sr0/build/custom_interfaces0
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0' for CMake config files
+[0.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces0', 'cmake_prefix_path')
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/cmake_prefix_path.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/cmake_prefix_path.dsv'
+[0.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/cmake_prefix_path.sh'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0/lib'
+[0.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces0', 'ld_library_path_lib')
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/ld_library_path_lib.ps1'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/ld_library_path_lib.dsv'
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/ld_library_path_lib.sh'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0/bin'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0/lib/pkgconfig/custom_interfaces0.pc'
+[0.984s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages'
+[0.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces0', 'pythonpath')
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/pythonpath.ps1'
+[0.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/pythonpath.dsv'
+[0.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/pythonpath.sh'
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0/bin'
+[0.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.ps1'
+[0.990s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.dsv'
+[0.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.sh'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.bash'
+[0.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.zsh'
+[0.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/draft42/sr0/install/custom_interfaces0/share/colcon-core/packages/custom_interfaces0)
+[1.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(reno_interface)
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface' for CMake module files
+[1.052s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface' for CMake config files
+[1.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('reno_interface', 'cmake_prefix_path')
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/cmake_prefix_path.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/cmake_prefix_path.dsv'
+[1.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/cmake_prefix_path.sh'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface/lib'
+[1.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('reno_interface', 'ld_library_path_lib')
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/ld_library_path_lib.ps1'
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/ld_library_path_lib.dsv'
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/ld_library_path_lib.sh'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface/bin'
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface/lib/pkgconfig/reno_interface.pc'
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface/lib/python3.8/site-packages'
+[1.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('reno_interface', 'pythonpath')
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/pythonpath.ps1'
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/pythonpath.dsv'
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/reno_interface/share/reno_interface/hook/pythonpath.sh'
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/reno_interface/bin'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/reno_interface/share/reno_interface/package.ps1'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/draft42/sr0/install/reno_interface/share/reno_interface/package.dsv'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/reno_interface/share/reno_interface/package.sh'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/reno_interface/share/reno_interface/package.bash'
+[1.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/reno_interface/share/reno_interface/package.zsh'
+[1.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/draft42/sr0/install/reno_interface/share/colcon-core/packages/reno_interface)
+[1.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces0)
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0' for CMake module files
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0' for CMake config files
+[1.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces0', 'cmake_prefix_path')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/cmake_prefix_path.ps1'
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/cmake_prefix_path.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/cmake_prefix_path.sh'
+[1.076s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0/lib'
+[1.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces0', 'ld_library_path_lib')
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/ld_library_path_lib.ps1'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/ld_library_path_lib.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/ld_library_path_lib.sh'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0/bin'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0/lib/pkgconfig/custom_interfaces0.pc'
+[1.078s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages'
+[1.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces0', 'pythonpath')
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/pythonpath.ps1'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/pythonpath.dsv'
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/hook/pythonpath.sh'
+[1.081s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/custom_interfaces0/bin'
+[1.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.ps1'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.dsv'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.sh'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.bash'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.zsh'
+[1.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/draft42/sr0/install/custom_interfaces0/share/colcon-core/packages/custom_interfaces0)
+[1.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/draft42/sr0/build/ros2_basics': PYTHONPATH=/home/draft42/sr0/build/ros2_basics/prefix_override:/home/draft42/sr0/install/ros2_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/draft42/sr0/build/ros2_basics/build
+[1.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/draft42/sr0/build/scara': PYTHONPATH=/home/draft42/sr0/build/scara/prefix_override:/home/draft42/sr0/install/scara/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/draft42/sr0/build/scara/build
+[1.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/draft42/sr0/build/scara' returned '0': PYTHONPATH=/home/draft42/sr0/build/scara/prefix_override:/home/draft42/sr0/install/scara/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/draft42/sr0/build/scara/build
+[1.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/draft42/sr0/src/scara': PYTHONPATH=/home/draft42/sr0/build/scara/prefix_override:/home/draft42/sr0/install/scara/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/scara build --build-base /home/draft42/sr0/build/scara/build install --record /home/draft42/sr0/build/scara/install.log --single-version-externally-managed
+[1.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/draft42/sr0/build/ros2_basics' returned '0': PYTHONPATH=/home/draft42/sr0/build/ros2_basics/prefix_override:/home/draft42/sr0/install/ros2_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/draft42/sr0/build/ros2_basics/build
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/draft42/sr0/src/ros2_basics': PYTHONPATH=/home/draft42/sr0/build/ros2_basics/prefix_override:/home/draft42/sr0/install/ros2_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_basics build --build-base /home/draft42/sr0/build/ros2_basics/build install --record /home/draft42/sr0/build/ros2_basics/install.log --single-version-externally-managed
+[1.944s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/scara' for CMake module files
+[1.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/draft42/sr0/src/scara' returned '0': PYTHONPATH=/home/draft42/sr0/build/scara/prefix_override:/home/draft42/sr0/install/scara/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/scara build --build-base /home/draft42/sr0/build/scara/build install --record /home/draft42/sr0/build/scara/install.log --single-version-externally-managed
+[1.946s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/scara' for CMake config files
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/scara/lib'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/scara/bin'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/scara/lib/pkgconfig/scara.pc'
+[1.947s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/scara/lib/python3.8/site-packages'
+[1.947s] Level 1:colcon.colcon_core.shell:create_environment_hook('scara', 'pythonpath')
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/scara/share/scara/hook/pythonpath.ps1'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/scara/share/scara/hook/pythonpath.dsv'
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/scara/share/scara/hook/pythonpath.sh'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/scara/bin'
+[1.950s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(scara)
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/scara/share/scara/package.ps1'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/draft42/sr0/install/scara/share/scara/package.dsv'
+[1.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/scara/share/scara/package.sh'
+[1.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/scara/share/scara/package.bash'
+[1.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/scara/share/scara/package.zsh'
+[1.953s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/draft42/sr0/install/scara/share/colcon-core/packages/scara)
+[1.965s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/ros2_basics' for CMake module files
+[1.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/draft42/sr0/src/ros2_basics' returned '0': PYTHONPATH=/home/draft42/sr0/build/ros2_basics/prefix_override:/home/draft42/sr0/install/ros2_basics/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros2_basics build --build-base /home/draft42/sr0/build/ros2_basics/build install --record /home/draft42/sr0/build/ros2_basics/install.log --single-version-externally-managed
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/ros2_basics' for CMake config files
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/ros2_basics/lib'
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/ros2_basics/bin'
+[1.966s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/ros2_basics/lib/pkgconfig/ros2_basics.pc'
+[1.967s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/ros2_basics/lib/python3.8/site-packages'
+[1.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_basics', 'pythonpath')
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/hook/pythonpath.ps1'
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/hook/pythonpath.dsv'
+[1.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/hook/pythonpath.sh'
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/draft42/sr0/install/ros2_basics/bin'
+[1.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_basics)
+[1.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/package.ps1'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/package.dsv'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/package.sh'
+[1.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/package.bash'
+[1.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/draft42/sr0/install/ros2_basics/share/ros2_basics/package.zsh'
+[1.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/draft42/sr0/install/ros2_basics/share/colcon-core/packages/ros2_basics)
+[1.972s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.973s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.973s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.973s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.982s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.001s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.003s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/draft42/sr0/install/local_setup.ps1'
+[2.005s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/draft42/sr0/install/_local_setup_util_ps1.py'
+[2.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/draft42/sr0/install/setup.ps1'
+[2.007s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/draft42/sr0/install/local_setup.sh'
+[2.007s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/draft42/sr0/install/_local_setup_util_sh.py'
+[2.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/draft42/sr0/install/setup.sh'
+[2.010s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/draft42/sr0/install/local_setup.bash'
+[2.010s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/draft42/sr0/install/setup.bash'
+[2.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/draft42/sr0/install/local_setup.zsh'
+[2.011s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/draft42/sr0/install/setup.zsh'

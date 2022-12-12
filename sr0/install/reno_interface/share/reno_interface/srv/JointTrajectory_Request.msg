@@ -1,0 +1,3 @@
+# Request
+trajectory_msgs/JointTrajectoryPoint initial_point
+trajectory_msgs/JointTrajectoryPoint final_point

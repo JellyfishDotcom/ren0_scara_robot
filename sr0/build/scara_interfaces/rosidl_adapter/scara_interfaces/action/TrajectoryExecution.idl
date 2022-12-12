@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from scara_interfaces/action/TrajectoryExecution.action
+// generated code does not contain a copyright notice
+
+#include "trajectory_msgs/msg/JointTrajectory.idl"
+#include "trajectory_msgs/msg/JointTrajectoryPoint.idl"
+
+module scara_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      " Request")
+    struct TrajectoryExecution_Goal {
+      trajectory_msgs::msg::JointTrajectory trajectory;
+    };
+    struct TrajectoryExecution_Result {
+      @verbatim (language="comment", text=
+        " Response")
+      trajectory_msgs::msg::JointTrajectoryPoint final_point;
+    };
+    struct TrajectoryExecution_Feedback {
+      @verbatim (language="comment", text=
+        " Feedback")
+      trajectory_msgs::msg::JointTrajectoryPoint actual_point;
+    };
+  };
+};

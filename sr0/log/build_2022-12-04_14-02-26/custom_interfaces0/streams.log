@@ -1,0 +1,153 @@
+[0.042s] Invoking command in '/home/draft42/sr0/build/custom_interfaces0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --build /home/draft42/sr0/build/custom_interfaces0 -- -j12 -l12
+[0.338s] [  2%] Built target custom_interfaces0__cpp
+[0.339s] [ 12%] Built target custom_interfaces0__rosidl_generator_c
+[0.339s] [ 25%] Built target custom_interfaces0__rosidl_typesupport_introspection_cpp
+[0.340s] [ 33%] Built target custom_interfaces0__rosidl_typesupport_cpp
+[0.341s] [ 43%] Built target custom_interfaces0__rosidl_typesupport_c
+[0.342s] [ 53%] Built target custom_interfaces0__rosidl_typesupport_introspection_c
+[0.342s] [ 64%] Built target custom_interfaces0__rosidl_typesupport_fastrtps_cpp
+[0.342s] [ 74%] Built target custom_interfaces0__rosidl_typesupport_fastrtps_c
+[0.342s] [ 74%] Built target custom_interfaces0
+[0.342s] [ 76%] Built target custom_interfaces0__py
+[0.342s] [ 84%] Built target custom_interfaces0__python
+[0.342s] [ 89%] Built target custom_interfaces0__rosidl_typesupport_introspection_c__pyext
+[0.342s] [ 94%] Built target custom_interfaces0__rosidl_typesupport_c__pyext
+[0.343s] [100%] Built target custom_interfaces0__rosidl_typesupport_fastrtps_c__pyext
+[0.545s] Invoked command in '/home/draft42/sr0/build/custom_interfaces0' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --build /home/draft42/sr0/build/custom_interfaces0 -- -j12 -l12
+[0.630s] Invoking command in '/home/draft42/sr0/build/custom_interfaces0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --install /home/draft42/sr0/build/custom_interfaces0
+[0.641s] -- Install configuration: ""
+[0.642s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces0
+[0.642s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0
+[0.642s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action
+[0.642s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/myaction.h
+[0.642s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail
+[0.642s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__functions.c
+[0.643s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__type_support.h
+[0.643s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__struct.h
+[0.643s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__functions.h
+[0.643s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv
+[0.643s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/my_srv.h
+[0.644s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail
+[0.644s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__functions.c
+[0.644s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__functions.h
+[0.644s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__struct.h
+[0.644s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__type_support.h
+[0.644s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/msg
+[0.645s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/msg/rosidl_generator_c__visibility_control.h
+[0.645s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/environment/library_path.sh
+[0.645s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/environment/library_path.dsv
+[0.646s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/libcustom_interfaces0__rosidl_generator_c.so
+[0.646s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0
+[0.646s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action
+[0.646s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail
+[0.646s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__rosidl_typesupport_fastrtps_c.h
+[0.647s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv
+[0.647s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail
+[0.647s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__rosidl_typesupport_fastrtps_c.h
+[0.647s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/msg
+[0.647s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.648s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/libcustom_interfaces0__rosidl_typesupport_fastrtps_c.so
+[0.648s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0
+[0.648s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action
+[0.648s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail
+[0.649s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/dds_fastrtps
+[0.649s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__rosidl_typesupport_fastrtps_cpp.hpp
+[0.650s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv
+[0.650s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail
+[0.650s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/dds_fastrtps
+[0.650s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[0.651s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/msg
+[0.651s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.653s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/libcustom_interfaces0__rosidl_typesupport_fastrtps_cpp.so
+[0.654s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0
+[0.654s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action
+[0.654s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail
+[0.654s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__type_support.c
+[0.654s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__rosidl_typesupport_introspection_c.h
+[0.654s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv
+[0.654s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail
+[0.655s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__rosidl_typesupport_introspection_c.h
+[0.655s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__type_support.c
+[0.655s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/msg
+[0.655s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.656s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/libcustom_interfaces0__rosidl_typesupport_introspection_c.so
+[0.656s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/libcustom_interfaces0__rosidl_typesupport_c.so
+[0.657s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0
+[0.657s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action
+[0.657s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/myaction.hpp
+[0.657s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail
+[0.657s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__struct.hpp
+[0.658s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__builder.hpp
+[0.658s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__traits.hpp
+[0.658s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv
+[0.658s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/my_srv.hpp
+[0.658s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail
+[0.658s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__struct.hpp
+[0.658s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__traits.hpp
+[0.658s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__builder.hpp
+[0.658s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0
+[0.659s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action
+[0.659s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail
+[0.659s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__type_support.cpp
+[0.659s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/action/detail/myaction__rosidl_typesupport_introspection_cpp.hpp
+[0.659s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv
+[0.659s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail
+[0.660s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__rosidl_typesupport_introspection_cpp.hpp
+[0.660s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/include/custom_interfaces0/srv/detail/my_srv__type_support.cpp
+[0.660s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/libcustom_interfaces0__rosidl_typesupport_introspection_cpp.so
+[0.660s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/libcustom_interfaces0__rosidl_typesupport_cpp.so
+[0.661s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/environment/pythonpath.sh
+[0.662s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/environment/pythonpath.dsv
+[0.662s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/__init__.py
+[0.691s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/srv
+[0.691s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/srv/_my_srv_s.c
+[0.692s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/srv/_my_srv.py
+[0.692s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/srv/__init__.py
+[0.692s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/action
+[0.692s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/action/_myaction.py
+[0.692s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/action/_myaction_s.c
+[0.692s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/action/__init__.py
+[0.692s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/custom_interfaces0_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.693s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/custom_interfaces0_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.695s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/python3.8/site-packages/custom_interfaces0/custom_interfaces0_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.695s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/lib/libcustom_interfaces0__python.so
+[0.696s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/srv/MySrv.idl
+[0.696s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/action/Myaction.idl
+[0.696s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/srv/MySrv.srv
+[0.696s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/srv/MySrv_Request.msg
+[0.697s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/srv/MySrv_Response.msg
+[0.697s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/action/Myaction.action
+[0.697s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/ament_index/resource_index/package_run_dependencies/custom_interfaces0
+[0.698s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/ament_index/resource_index/parent_prefix_path/custom_interfaces0
+[0.698s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/environment/ament_prefix_path.sh
+[0.698s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/environment/ament_prefix_path.dsv
+[0.698s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/environment/path.sh
+[0.699s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/environment/path.dsv
+[0.700s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/local_setup.bash
+[0.700s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/local_setup.sh
+[0.700s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/local_setup.zsh
+[0.702s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/local_setup.dsv
+[0.702s] -- Installing: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.dsv
+[0.704s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/ament_index/resource_index/packages/custom_interfaces0
+[0.704s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_generator_cExport.cmake
+[0.705s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_generator_cExport-noconfig.cmake
+[0.706s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_typesupport_introspection_cExport.cmake
+[0.706s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.709s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_typesupport_cExport.cmake
+[0.709s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_typesupport_cExport-noconfig.cmake
+[0.711s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_generator_cppExport.cmake
+[0.711s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_typesupport_introspection_cppExport.cmake
+[0.711s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.711s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_typesupport_cppExport.cmake
+[0.712s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0__rosidl_typesupport_cppExport-noconfig.cmake
+[0.712s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/rosidl_cmake-extras.cmake
+[0.713s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.714s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/ament_cmake_export_libraries-extras.cmake
+[0.716s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/ament_cmake_export_targets-extras.cmake
+[0.716s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.716s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.717s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.717s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0Config.cmake
+[0.717s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/cmake/custom_interfaces0Config-version.cmake
+[0.717s] -- Up-to-date: /home/draft42/sr0/install/custom_interfaces0/share/custom_interfaces0/package.xml
+[0.739s] Invoked command in '/home/draft42/sr0/build/custom_interfaces0' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/draft42/sr0/install/scara:/home/draft42/sr0/install/ros2_basics:/opt/ros/galactic /usr/bin/cmake --install /home/draft42/sr0/build/custom_interfaces0

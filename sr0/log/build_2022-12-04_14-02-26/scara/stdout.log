@@ -1,0 +1,26 @@
+running develop
+running egg_info
+writing ../../build/scara/scara.egg-info/PKG-INFO
+writing dependency_links to ../../build/scara/scara.egg-info/dependency_links.txt
+writing entry points to ../../build/scara/scara.egg-info/entry_points.txt
+writing requirements to ../../build/scara/scara.egg-info/requires.txt
+writing top-level names to ../../build/scara/scara.egg-info/top_level.txt
+reading manifest file '../../build/scara/scara.egg-info/SOURCES.txt'
+writing manifest file '../../build/scara/scara.egg-info/SOURCES.txt'
+running build
+running build_py
+copying scara/arduino_subscriber.py -> /home/draft42/sr0/build/scara/build/lib/scara
+running install
+running install_lib
+copying /home/draft42/sr0/build/scara/build/lib/scara/arduino_subscriber.py -> /home/draft42/sr0/install/scara/lib/python3.8/site-packages/scara
+byte-compiling /home/draft42/sr0/install/scara/lib/python3.8/site-packages/scara/arduino_subscriber.py to arduino_subscriber.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/draft42/sr0/install/scara/lib/python3.8/site-packages/scara-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/scara/scara.egg-info to /home/draft42/sr0/install/scara/lib/python3.8/site-packages/scara-0.0.0-py3.8.egg-info
+running install_scripts
+Installing arduino_subscriber script to /home/draft42/sr0/install/scara/lib/scara
+Installing scara_joint_publisher script to /home/draft42/sr0/install/scara/lib/scara
+Installing trajectory_generator script to /home/draft42/sr0/install/scara/lib/scara
+Installing virtual_pendant script to /home/draft42/sr0/install/scara/lib/scara
+writing list of installed files to '/home/draft42/sr0/build/scara/install.log'

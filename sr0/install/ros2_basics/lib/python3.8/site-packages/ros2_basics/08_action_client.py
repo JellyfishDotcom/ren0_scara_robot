@@ -1,0 +1,58 @@
+import rclpy
+from rclpy.node import Node
+from rclpy.action import ActionClient
+from custom_interfaces0.action import Myaction
+
+# Create a class that inherits the imported Node class
+class ActionClientNode(Node):
+    def __init__(self):
+    	# Define the name of the node
+        super().__init__('my_action_client')
+        
+        #Instanciating an action client
+        self.client_= ActionClient(self, Myaction, "my_action_service")
+    
+    def request_service(self, position):
+        #Instanciate a goal message
+        goal = Myaction.Goal()
+        goal.goal_position= position
+
+        #wait to the server
+        self.client_.wait_for_server()
+
+        #Send the request
+        self.request_handler = self.client_.send_goal_async(goal, feedback_callback = self.feedback_callback)
+
+        #associate a callback with the request _handler
+        self.request_handler.add_done_callback(self.request_callback)
+
+    def request_callback (self, request_handler):
+        if not request_handler.result().accepted:
+            self.get_logger().info('request regected..')
+            return
+        else:
+            self.get_logger().info('request accepted..')
+        #Request the action-service result
+        self.result_handler = request_handler.result().get_result_async()
+
+        #associate a callback with the result_handler
+        self.result_handler.add_done_callback(self.result_callback)
+    def result_callback(self, result_handler):
+        result=result_handler. result().result
+        self.get_logger().info(f'Result: {result.result_position}')
+
+        rclpy.shutdown()
+    def feedback_callback(self, feedback_handler):
+        self.get_logger().info(f'Feedback: {feedback_handler.feedback.current_position}')
+
+
+def main(args = None ):
+    rclpy.init()
+    action_client = ActionClientNode()
+
+    action_client.request_service([3,5,8])
+    rclpy.spin(action_client)
+
+    
+if __name__=='__main__':
+    main()

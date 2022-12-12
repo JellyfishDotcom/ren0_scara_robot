@@ -1,0 +1,30 @@
+[0.964s] Invoking command in '/home/draft42/sr0/build/scara': PYTHONPATH=/home/draft42/sr0/build/scara/prefix_override:/home/draft42/sr0/install/scara/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/draft42/sr0/build/scara/build
+[1.199s] running develop
+[1.379s] Invoked command in '/home/draft42/sr0/build/scara' returned '0': PYTHONPATH=/home/draft42/sr0/build/scara/prefix_override:/home/draft42/sr0/install/scara/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/draft42/sr0/build/scara/build
+[1.381s] Invoking command in '/home/draft42/sr0/src/scara': PYTHONPATH=/home/draft42/sr0/build/scara/prefix_override:/home/draft42/sr0/install/scara/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/scara build --build-base /home/draft42/sr0/build/scara/build install --record /home/draft42/sr0/build/scara/install.log --single-version-externally-managed
+[1.591s] running egg_info
+[1.591s] writing ../../build/scara/scara.egg-info/PKG-INFO
+[1.591s] writing dependency_links to ../../build/scara/scara.egg-info/dependency_links.txt
+[1.592s] writing entry points to ../../build/scara/scara.egg-info/entry_points.txt
+[1.592s] writing requirements to ../../build/scara/scara.egg-info/requires.txt
+[1.592s] writing top-level names to ../../build/scara/scara.egg-info/top_level.txt
+[1.638s] reading manifest file '../../build/scara/scara.egg-info/SOURCES.txt'
+[1.639s] writing manifest file '../../build/scara/scara.egg-info/SOURCES.txt'
+[1.639s] running build
+[1.639s] running build_py
+[1.639s] copying scara/arduino_subscriber.py -> /home/draft42/sr0/build/scara/build/lib/scara
+[1.639s] running install
+[1.640s] running install_lib
+[1.641s] copying /home/draft42/sr0/build/scara/build/lib/scara/arduino_subscriber.py -> /home/draft42/sr0/install/scara/lib/python3.8/site-packages/scara
+[1.641s] byte-compiling /home/draft42/sr0/install/scara/lib/python3.8/site-packages/scara/arduino_subscriber.py to arduino_subscriber.cpython-38.pyc
+[1.642s] running install_data
+[1.643s] running install_egg_info
+[1.644s] removing '/home/draft42/sr0/install/scara/lib/python3.8/site-packages/scara-0.0.0-py3.8.egg-info' (and everything under it)
+[1.644s] Copying ../../build/scara/scara.egg-info to /home/draft42/sr0/install/scara/lib/python3.8/site-packages/scara-0.0.0-py3.8.egg-info
+[1.645s] running install_scripts
+[1.658s] Installing arduino_subscriber script to /home/draft42/sr0/install/scara/lib/scara
+[1.659s] Installing scara_joint_publisher script to /home/draft42/sr0/install/scara/lib/scara
+[1.659s] Installing trajectory_generator script to /home/draft42/sr0/install/scara/lib/scara
+[1.659s] Installing virtual_pendant script to /home/draft42/sr0/install/scara/lib/scara
+[1.659s] writing list of installed files to '/home/draft42/sr0/build/scara/install.log'
+[1.679s] Invoked command in '/home/draft42/sr0/src/scara' returned '0': PYTHONPATH=/home/draft42/sr0/build/scara/prefix_override:/home/draft42/sr0/install/scara/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/scara build --build-base /home/draft42/sr0/build/scara/build install --record /home/draft42/sr0/build/scara/install.log --single-version-externally-managed

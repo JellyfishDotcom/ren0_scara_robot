@@ -1,0 +1,6 @@
+action/TrajectoryExecution.action
+action/TrajectoryExecution.idl
+srv/JointTrajectory.idl
+srv/JointTrajectory.srv
+srv/JointTrajectory_Request.msg
+srv/JointTrajectory_Response.msg
