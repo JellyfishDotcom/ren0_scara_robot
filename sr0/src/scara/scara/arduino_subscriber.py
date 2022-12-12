@@ -35,7 +35,7 @@ class My_subscriber(Node):
 		self.get_logger().info('X \n')
 		self.get_logger().info('"%s"\n'%b1)
 
-		
+
 		self.arduino.write(bytes('Y \n',encoding='utf-8'))
 		self.arduino.write(bytes('"%s"\n'%b2,encoding='utf-8'))		
 		self.get_logger().info('Y \n')
@@ -49,7 +49,6 @@ class My_subscriber(Node):
 				
 		
 def main():
-	
 	rclpy.init()
 	my_node=My_subscriber()
 	rclpy.spin(my_node)
