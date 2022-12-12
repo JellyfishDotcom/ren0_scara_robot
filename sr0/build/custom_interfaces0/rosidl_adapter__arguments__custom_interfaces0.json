@@ -1,7 +1,0 @@
-{
-  "package_name": "custom_interfaces0",
-  "non_idl_tuples": [
-    "/home/draft42/sr0/src/custom_interfaces0:srv/MySrv.srv",
-    "/home/draft42/sr0/src/custom_interfaces0:action/Myaction.action"
-  ]
-}

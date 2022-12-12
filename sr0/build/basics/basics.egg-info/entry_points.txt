@@ -1,3 +1,0 @@
-[console_scripts]
-node = basics.01_node:main
-
